@@ -1,10 +1,14 @@
-body{
-
+*{
+	margin: 0px;
+	padding: 0px;
 }
 
-#outcome{
-	border: 2px;
-	border-style: solid;
-	border-color: black;
-	
+#calculator {
+	width: 325px;
+	height: auto;
+
+	margin: 100px auto;
+	padding: 20px;
+
+	background:#636363;
 }
