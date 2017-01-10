@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 #calculator {
@@ -10,5 +11,21 @@
 	margin: 100px auto;
 	padding: 20px;
 
-	background:#636363;
+	background: linear-gradient(#9dd2ea, #8bceec);
+	border-radius: 3px;
 }
+
+.keys{
+	overflow:hidden;
+}
+
+.keys button{
+	float: left;
+
+	width:66px;
+	height: 40px;
+
+	background: white;
+	border-radius:3px;
+}
+
