@@ -9,8 +9,8 @@ var current,
 	period,
 	operator; 
 
-	screen = document.getElementById("result")
+	screen = document.getElementById("result");
 
-	var elem = 
+var elem = document.querySelectorAll(".num");
 
-}
+		var len = elem.length;
