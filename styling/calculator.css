@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body{
+	background-color: #ece8e5;
+}
+
 #calculator {
 	width: 325px;
 	height: auto;
@@ -11,7 +15,7 @@
 	margin: 100px auto;
 	padding: 20px;
 
-	background: linear-gradient(#9dd2ea, #8bceec);
+	background: linear-gradient(#747474, #4f4f4f);
 	border-radius: 3px;
 }
 
@@ -19,13 +23,22 @@
 	overflow:hidden;
 }
 
+button:hover{
+	animation-name: fade;
+	animation-duration: 200ms;
+	background-color:#3a9cff;
+}
+
+@keyframes fade{
+	from{background-color:#ffffff ;}
+	to{background-color: #3a9cff;}
+}
+
 .keys button{
 	float: left;
 
 	width:60px;
 	height: 40px;
-
-	background: white;
-	border-radius:3px;
+	border-radius:;
 }
 

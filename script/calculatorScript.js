@@ -1,5 +1,16 @@
+//Instantly loads the script
 window.onload  = function() {
 
-var 
+var current,
+	screen,
+	output,
+	limit,
+	zero,
+	period,
+	operator; 
+
+	screen = document.getElementById("result")
+
+	var elem = 
 
 }
