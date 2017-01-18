@@ -14,3 +14,15 @@ var current,
 var elem = document.querySelectorAll(".num");
 
 		var len = elem.length;
+
+	for (var i= 0; i < len; i++) {
+		elem[i].addEventListener("click", function( {
+			num = this.value;
+			output = screen.innerHTML +=num;
+			limit = output.length;
+		if(limit > 20) {
+			alert("Sorry no mroe input is allowed");
+		}
+
+		},false);
+	}
