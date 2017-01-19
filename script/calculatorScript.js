@@ -20,8 +20,8 @@ var elem = document.querySelectorAll(".num");
 			num = this.value;
 			output = screen.innerHTML +=num;
 			limit = output.length;
-		if(limit > 20) {
-			alert("Sorry no mroe input is allowed");
+		if(limit > 18) {
+			alert("Too many characters");
 		}
 
 		},false);
