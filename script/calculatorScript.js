@@ -26,3 +26,21 @@ var elem = document.querySelectorAll(".num");
 
 		},false);
 	}
+
+	document.querySelector(".zero").addEventListener("click",function(){
+
+		zero = this.value;
+
+		if(screen.innerHTML === "0") {
+
+			output= screen.innerHTML = zero;
+		}
+
+		else if(screen.innerHTML === output) {
+
+			output = screen.innerHTML +=zero;
+
+		}
+	},false);
+
+	document.querySelector("#reset")
